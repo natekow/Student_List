@@ -98,11 +98,11 @@ student e_temp;
 float hworkScores[11];
 float testScores[4];
 
-cout << "Please enter the name of the student: ";
+cout << "Please enter the name of the student (Last,First): ";
 cin >> name; e_temp.setName(name);
 cout<<"Please enter the student's ID: ";
 cin>> id; e_temp.setId(id);
-cout<<"please enter homework scores (10), followed by participation score: ";
+cout<<"Please enter homework scores (10), followed by the participation score: ";
 cin>> hworkScores[0] >> hworkScores[1] >> hworkScores[2] >> hworkScores[3] >> hworkScores[4] >>
 hworkScores[5] >>hworkScores[6] >>hworkScores[7] >>hworkScores[8] >>hworkScores[9] >> hworkScores[10];
 e_temp.setHW(hworkScores,10);
